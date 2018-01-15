@@ -35,6 +35,7 @@ return array
 }
 
 function removeElementFromEndOfArray(array) {
+  var newArrayMinusElement = array.slice(0,array.length)
   return array.slice(0, array.length - 1)
 }
 
